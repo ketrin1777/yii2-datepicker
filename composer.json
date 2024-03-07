@@ -1,0 +1,21 @@
+{
+    "name": "ketrin1777/yii2-datepicker",
+    "description": "The Datepicker widget Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","datepicker"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nastya Martynova",
+            "email": "nastenka29001@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ketrin1777\\datepicker\\": ""
+        }
+    }
+}
