@@ -23,7 +23,7 @@ class DateFramepicker extends InputWidget
 
     public function run()
     {
-        $html = '<div class="date_time_pick_wrap">';
+        $html = '<div class="date_pick_wrap">';
 
         if ($this->value == null) {
             $this->value = Yii::$app->formatter->asTimestamp(date('U'));
@@ -42,10 +42,10 @@ class DateFramepicker extends InputWidget
 
         $inputOption = $this->options;
         $outOption = $this->options;
-        $inputOption['class'] .= ' inputTime';
+        $inputOption['class'] .= ' inputDatePic';
         $inputOption['type'] = 'hidden';
         $outOption['type'] = 'date';
-        $outOption['class'] .= ' outDateTime';
+        $outOption['class'] .= ' outDatePic';
         $outOption['min'] = $dateMinValue->format("Y-m-d");
         $outOption['max'] = $dateMaxValue->format("Y-m-d");
 
