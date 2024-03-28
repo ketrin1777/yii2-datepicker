@@ -30,4 +30,4 @@ to the require section of your `composer.json` file.
 ```php
 <?= $form->field($model, 'datetime')->widget(ketrin1777\datepicker\Datepicker::className(),[]) ?>```
 ```
-Thank you for accessing! This widget fork from [alex290/yii2-datetimepicker](https://github.com/alex290/yii2-datetimepicker)
+Thank you for accessing! This widget fork from [alex290/yii2-datetimepicker](https://github.com/alex290/yii2-datetimepicker) [alex290/yii2-datepicker](https://github.com/alex290/yii2-datepicker)
